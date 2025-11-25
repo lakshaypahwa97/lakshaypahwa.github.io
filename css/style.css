@@ -9703,3 +9703,43 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+/* Fix hero image size */
+.one-third.js-fullheight.img {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 500px !important;     /* change this number if needed */
+    max-width: 100%;
+}
+@media (max-width: 767px) {
+  .one-third.js-fullheight.img {
+      height: 300px !important;
+  }
+}
+/* Fix hero image size */
+.one-third.js-fullheight.img {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 500px !important;     /* adjust as needed */
+    max-width: 100%;
+}
+
+/* Mobile responsive image */
+@media (max-width: 767px) {
+  .one-third.js-fullheight.img {
+      height: 300px !important;
+  }
+}
+
+/* Center the image vertically */
+.one-third.js-fullheight.img {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* Keep the text block and image aligned */
+.slider-item .row.d-md-flex {
+    align-items: center !important;
+}
